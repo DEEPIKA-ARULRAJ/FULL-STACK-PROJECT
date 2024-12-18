@@ -1,0 +1,76 @@
+.booking-container {
+    padding: 20px;
+    background-color: #333; 
+    color: #fff; 
+  }
+  
+  .booking-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; 
+  }
+  
+  .booking-page {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); 
+    color: #fff;
+  }
+  
+  .booking-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .booking-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .booking-form .form-group input[type="date"],
+  .booking-form .form-group input[type="time"],
+  .booking-form .form-group input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #fff; 
+    border: 5px solid #444; 
+    margin-left: 15px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .cancel-button,
+  .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff; 
+  }
+  
+  .cancel-button {
+    background-color: #666; 
+  }
+  
+  .submit-button {
+    background-color: #4caf50; 
+    color: #fff; 
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+  }
+   
